@@ -28,7 +28,7 @@ Desenvolver um sistema Web Full Stack capaz de:
 * Identificar o usuário responsável por cada movimentação;
 * Alertar quando o estoque estiver abaixo do mínimo configurado.
 
-# 💻 Tecnologias utilizadas
+# Tecnologias utilizadas
 
 ## Frontend
 * HTML5
