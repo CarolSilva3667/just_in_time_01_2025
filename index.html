@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just in Time - Início</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="topo">
+        <div class="logo">
+            <span>JIT</span>
+            <div>
+                <h1>Just in Time</h1>
+                <small>Gestão da Produção</small>
+            </div>
+        </div>
+        <div class="usuario-menu">
+            <span id="nomeUsuario">Usuário</span>
+            <button onclick="logout()" class="btn-sair">Sair</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="boas-vindas">
+            <h2>Bem-vindo, <span id="nomeUsuarioPrincipal">Usuário</span>!</h2>
+            <p>
+                Gerencie os produtos e acompanhe a produção da fábrica
+                utilizando o sistema Just in Time.
+            </p>
+        </section>
+
+        <section class="menu-cards">
+            <a href="produtos.html" class="menu-card">
+                <div class="card-icon">📦</div>
+
+                <h3>Produtos</h3>
+
+                <p>
+                    Cadastre, consulte, edite e exclua produtos.
+                </p>
+
+                <span class="card-link">
+                    Acessar produtos →
+                </span>
+            </a>
+
+            <a href="producao.html" class="menu-card">
+                <div class="card-icon">🏭</div>
+
+                <h3>Gestão de Produção</h3>
+
+                <p>
+                    Registre pedidos e produtos fabricados,
+                    controlando o estoque.
+                </p>
+
+                <span class="card-link">
+                    Acessar produção →
+                </span>
+            </a>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Just in Time - Gestão da Produção</p>
+    </footer>
+<script src="java/home.js"></script>
+
+</body>
+</html>
