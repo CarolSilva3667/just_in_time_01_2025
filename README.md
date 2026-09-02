@@ -31,16 +31,18 @@ Desenvolver um sistema Web Full Stack capaz de:
 # Tecnologias utilizadas
 
 ## Frontend
-* HTML5
-* CSS3
+* HTML
+* CSS
 * JavaScript
-* Fetch API
+* API
 * LocalStorage
 
 ## Backend
 * Node.js
 * Express
 * CORS
+* Dotenv
+* Express-session
 
 ## Banco de dados
 * MySQL
