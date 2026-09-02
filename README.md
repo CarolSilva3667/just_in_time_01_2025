@@ -105,7 +105,7 @@ frontend/login.html
 A partir dela, o usuário poderá realizar o login e acessar as demais funcionalidades.
 ---
 
-# 👤 Usuário para teste
+# Usuário para teste
 O banco possui usuários cadastrados para testes.
 Exemplo:
 ```text
