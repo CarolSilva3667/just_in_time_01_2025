@@ -109,7 +109,7 @@ A partir dela, o usuário poderá realizar o login e acessar as demais funcional
 O banco possui usuários cadastrados para testes.
 Exemplo:
 ```text
-E-mail: admin@gmail.com
+E-mail: admin@justintime.com
 Senha: 123456
 ```
 
