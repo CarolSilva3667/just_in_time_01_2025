@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produção - Just in Time</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,7 +16,6 @@
                 <small>Gestão da Produção</small>
             </div>
         </div>
-
         <div class="usuario-menu">
             <span id="nomeUsuario">
                 Usuário
@@ -53,8 +52,8 @@
                                 Selecione um produto
                             </option>
                         </select>
-
                     </div>
+
                     <div class="campo">
                         <label for="tipo">
                             Tipo de movimentação *
@@ -70,8 +69,8 @@
                                 Pedido - Saída
                             </option>
                         </select>
-
                     </div>
+
                     <div class="campo">
                         <label for="quantidade">
                             Quantidade *
@@ -100,10 +99,15 @@
         <section class="painel">
             <div class="tabela-header">
                 <div>
-                    <h3>Produtos em estoque</h3>
-                    <p>Produtos organizados em ordem alfabética.</p>
+                    <h3>
+                        Produtos em estoque
+                    </h3>
+                    <p>
+                        Produtos organizados em ordem alfabética.
+                    </p>
                 </div>
             </div>
+
             <div class="tabela-container">
                 <table>
                     <thead>
@@ -115,8 +119,7 @@
                             <th>Status</th>
                         </tr>
                     </thead>
-                    <tbody id="tabelaProducao">
-                    </tbody>
+                    <tbody id="tabelaProducao"></tbody>
                 </table>
             </div>
         </section>
@@ -136,14 +139,13 @@
                             <th>Data</th>
                         </tr>
                     </thead>
-                    <tbody id="tabelaHistorico">
-                    </tbody>
+                    <tbody id="tabelaHistorico"></tbody>
                 </table>
             </div>
         </section>
     </main>
 
-    <script src="js/producao.js"></script>
+    <script src="java/producao.js"></script>
 
 </body>
 </html>
